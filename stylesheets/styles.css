@@ -822,7 +822,7 @@ section #title .credits.right {
 
 @media print, screen and (max-width: 720px) {
   #title .credits {
-    display: block;
+    display: none;
     width: 100%;
     line-height: 30px;
     text-align: center;

@@ -830,6 +830,9 @@ section #title .credits.right {
   #title .credits .left {
     float: none;
     display: block;
+    font-size:0;
+    line-height:0;
+    text-indent:-9999px;
   }
   #title .credits .right {
     float: none;

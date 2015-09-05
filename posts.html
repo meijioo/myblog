@@ -41,26 +41,10 @@
     <div class="grid">
 <div class="unit">      
 <article>
-
-<p class="content"></p>
-
-          {% for post in paginator.posts %}
-		   <a href="{{ post.url | prepend: site.baseurl }}">
-		    <ul>
-			<li>            {{ post.title }} posted on {{ post.date | date: "%B %-d, %Y" }}
-        </li>
-     </ul>
-        {% endif %}
-    </a>
-   
-
-{% endfor %}
-		  
+<p class="content">
 {{content}}
 
-
-  
-	
+</p>
     <div class="clear"></div>
     
         </article>

@@ -42,7 +42,7 @@
 <div class="unit">      
 <article>
 
-<p class="content">
+<p class="content"></p>
 
           {% for post in paginator.posts %}
 		   <a href="{{ post.url | prepend: site.baseurl }}">
@@ -56,8 +56,8 @@
 
 {% endfor %}
 		  
+{{content}}
 
-</p>
 
   
 	

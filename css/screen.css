@@ -232,7 +232,7 @@ position:absolute;top:0;left:-30px}
 .docs article{min-height:800px}
 .docs .content{padding:0}
 
-.section-nav{text-align:center;padding-top:40px;position:relative;background:url(../img/article-footer.png) top center no-repeat;margin:40px -20px 10px}
+.section-nav{text-align:center;padding-top:40px;position:relative;background:url("https://github.com/jekyll/jekyll/blob/gh-pages/img/article-footer.png?raw=true") top center no-repeat;margin:40px -20px 10px}
 .section-nav>div{width:49.5%;}
 .section-nav a,.section-nav span{color:#fff;font-size:16px;text-transform:uppercase;font-weight:700;padding:8px 12px 10px;
 -webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;

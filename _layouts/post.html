@@ -42,15 +42,7 @@
     <div class="grid">
 <div class="unit">      
 <article>
-
-<p class="content">
-          
-		  {{ content }}
-
-</p>
-
-  
-  {% if page.previous.url %}
+{% if page.previous.url %}
     <div class="section-nav">
       <div class="left align-right">
             
@@ -65,7 +57,12 @@
             <a class="next" href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.next.title}}">Next</a>
           
       </div>
-    </div>
+    </div>	
+
+<p class="content">
+
+  
+  </p>
 	
     <div class="clear"></div>
     

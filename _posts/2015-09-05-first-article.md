@@ -1,11 +1,8 @@
 ---
-
-layout:post
-title:first article
-date:2015-09-05
-
+layout:     post
+title:      "first article"
+date:       2014-07-01 12:00:00
 ---
-
 
 
 

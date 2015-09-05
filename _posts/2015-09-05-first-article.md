@@ -1,3 +1,14 @@
+---
+
+layout:post
+title:first article
+date:2015-09-05
+
+---
+
+
+
+
 ##My##name is meijioo.
 
 I study in Guangxi University.
